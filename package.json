@@ -1,0 +1,19 @@
+{
+  "name": "playwright-test",
+  "version": "1.0.0",
+  "description": "Playwright",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "install:drivers": "npx playwright install --with-deps"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.3.0"
+  }
+}
