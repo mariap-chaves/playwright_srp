@@ -40,4 +40,4 @@ jobs:
         run: |
           sonar-scanner \
           -Dsonar.host.url=http://localhost:9000 \
-          -Dsonar.token=YOUR_TOKEN_HERE
+          -Dsonar.token=sqa_9443adf79f5b5c305235c990967bdbe9cf65a25f
