@@ -39,5 +39,5 @@ jobs:
       - name: Run SonarScanner
         run: |
           sonar-scanner \
-            -Dsonar.host.url=${{ secrets.SONAR_HOST_URL }} \
-            -Dsonar.token=${{ secrets.SONAR_TOKEN }}
+          -Dsonar.host.url=http://localhost:9000 \
+          -Dsonar.token=YOUR_TOKEN_HERE
