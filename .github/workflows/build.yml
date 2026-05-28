@@ -40,4 +40,4 @@ jobs:
         run: |
           sonar-scanner \
           -Dsonar.host.url=http://localhost:9000 \
-          -Dsonar.token=${{ secrets.SONAR_TOKEN }}
+          -Dsonar.token=sqp_3279d9b6f27264e9e28746db19ef5170a689b3ee
